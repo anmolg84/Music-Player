@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta-Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="interactive Music Player Using Vanilla-JavaScript, HTML5 And CSS3">
+    <meta name="keywords" content="Music Player,Vanilla-Javascript,HTML5,CSS3">
+    <meta name="Author" content="Anmol-Gupta">
+    <!-- Linking -->
+    <link rel="stylesheet" href="./Home.css">
+    <link rel="stylesheet" href="./player.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" integrity="sha512-9my9Mb2+0YO+I4PUCSwUYO7sEK21Y0STBAiFEYoWtd2VzLEZZ4QARDrZ30hdM1GlioHJ8o8cWQiy8IAb1hy/Hg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Music-Player♫</title>
+</head>
+<body>
+    <!-- Music-Player Body -->
+    <div class="player">
+        <div class="detail">
+            <div class="name" id="title"><h2>Namo-Namo</h2></div>
+            <div class="image">
+            </div>
+            <audio src="./Namo Namo(Reverbed).mp3" id="Audio"></audio>
+            <audio src="./Runaway-Aurora.mp3" id="Audio2"></audio>
+            <audio src="./Tera Bina(Reverbed).mp3" id="Audio3"></audio>
+        </div>
+        <div class="buttons">
+            <!-- <div class="slider">
+                <span class="slider-txt" id="start">0.00</span>
+                <input type="range" min="0.00" max="100" value="0" step="1" name="" id="slider">
+                <span class="slider-txt" id="end">0.00</span>
+            </div> -->
+            <div class="btns">
+                <i class="fa fa-backward" id="prev"></i>
+                <i class="fa fa-play" id="play"></i>
+                <i class="fa fa-forward" id="forward"></i>
+            </div>
+        </div>
+    </div>
+    <script src="./Home.js"></script>
+</body>
+</html>

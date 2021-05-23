@@ -1,0 +1,68 @@
+.player{
+    border-radius: 25px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    background: rgba(255, 255, 255, 0.5);
+    height: 550px;
+    width: 80%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.player .detail #title {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.player .detail .image{
+    background-image: url('./AG-Logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:2px solid black;
+    /* margin-top: 40px; */
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.buttons{
+    margin: 20px;
+    padding: 20px;
+    /* border: 2px solid black; */
+}
+.slider-txt{
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.btns{
+    margin: 5px;
+}
+.btns i{
+    font-size: 1.5em;
+    padding: 15px;
+}
+.btns i:hover{
+    cursor: pointer;
+}
+.fa-play:hover{
+    background-color: #111;
+    border-radius: 50%;
+    color: #f6f6f6;
+    box-shadow: 0 1rem 2rem 0.2rem rgba(0,0,0,0.4);
+}
+.fa-forward:hover{
+    background-color: #111;
+    border-radius: 50%;
+    color: #f6f6f6;
+    box-shadow: 0 1rem 2rem 0.2rem rgba(0,0,0,0.4);
+}
+.fa-backward:hover{
+    background-color: #111;
+    border-radius: 50%;
+    color: #f6f6f6;
+    box-shadow: 0 1rem 2rem 0.2rem rgba(0,0,0,0.4);
+}
